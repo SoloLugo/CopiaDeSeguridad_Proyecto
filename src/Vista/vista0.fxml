@@ -18,7 +18,10 @@
                   <MenuItem fx:id="BTN_alquiler" mnemonicParsing="false" onAction="#ALQUILER" text="Alquiler" />
             </items>
           </Menu>
-          <Menu fx:id="BTN_salir" mnemonicParsing="false" onAction="#EXIT" text="Salir" />
+          <Menu fx:id="BTN_salir" mnemonicParsing="false" text="Salir">
+               <items>
+                  <MenuItem fx:id="BTN_gestion1" mnemonicParsing="false" onAction="#CERRAR" text="Cerrar" />
+               </items></Menu>
         </menus>
          <cursor>
             <Cursor fx:constant="HAND" />
