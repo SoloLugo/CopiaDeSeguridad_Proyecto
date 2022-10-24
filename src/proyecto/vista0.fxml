@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.Vista0Controller">
+   <children>
+      <MenuBar layoutY="1.0" prefHeight="26.0" prefWidth="600.0">
+        <menus>
+          <Menu fx:id="BTN_operaciones" mnemonicParsing="false" text="Operaciones">
+            <items>
+              <MenuItem fx:id="BTN_gestion" mnemonicParsing="false" onAction="#GESTION" text="Gestiones" />
+                  <MenuItem fx:id="BTN_alquiler" mnemonicParsing="false" onAction="#ALQUILER" text="Alquiler" />
+            </items>
+          </Menu>
+          <Menu fx:id="BTN_salir" mnemonicParsing="false" onAction="#EXIT" text="Salir" />
+        </menus>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuBar>
+   </children>
+</AnchorPane>
