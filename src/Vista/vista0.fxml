@@ -26,12 +26,12 @@
       </MenuBar>
       <ImageView fitHeight="172.0" fitWidth="267.0" layoutX="14.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../Pictures/Saved%20Pictures/motomami.png" />
+            <Image url="@../imagenesXD/motomami.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="162.0" fitWidth="289.0" layoutX="300.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../Pictures/Saved%20Pictures/carromami.png" />
+            <Image url="@../imagenesXD/carromami.png" />
          </image>
       </ImageView>
    </children>

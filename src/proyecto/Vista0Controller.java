@@ -31,5 +31,6 @@ public class Vista0Controller implements Initializable {
 
     @FXML
     private void EXIT(ActionEvent event) {
+        System.exit(0);
     }
 }
