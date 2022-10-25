@@ -8,9 +8,9 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="391.0" prefWidth="600.0" style="-fx-background-color: #69131D;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.Vista0Controller">
+<AnchorPane id="AnchorPane" fx:id="Entrada" prefHeight="391.0" prefWidth="600.0" style="-fx-background-color: #69131D;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.Vista0Controller">
    <children>
-      <MenuBar layoutY="1.0" prefHeight="26.0" prefWidth="600.0">
+      <MenuBar fx:id="menuBar" layoutY="1.0" prefHeight="26.0" prefWidth="600.0">
         <menus>
           <Menu fx:id="BTN_operaciones" mnemonicParsing="false" text="Operaciones">
             <items>
