@@ -11,15 +11,15 @@
    <children>
       <Pane fx:id="objetosPane" layoutX="45.0" layoutY="44.0" prefHeight="311.0" prefWidth="200.0" style="-fx-background-color: #447FA7; -fx-border-color: #000000;">
          <children>
-            <RadioButton fx:id="RBTN_carro" layoutX="18.0" layoutY="41.0" mnemonicParsing="false" onAction="#CRUD_CARRO" text="Carro" textFill="WHITE">
+            <RadioButton fx:id="RBTN_carro" layoutX="18.0" layoutY="41.0" mnemonicParsing="false" onMouseClicked="#CRUD_CARRO" text="Carro" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font></RadioButton>
-            <RadioButton fx:id="RBTN_moto" layoutX="18.0" layoutY="89.0" mnemonicParsing="false" onAction="#CRUD_MOTO" text="Moto" textFill="WHITE">
+            <RadioButton fx:id="RBTN_moto" layoutX="18.0" layoutY="89.0" mnemonicParsing="false" onMouseClicked="#CRUD_MOTO" text="Moto" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font></RadioButton>
-            <RadioButton fx:id="RBTN_cliente" layoutX="18.0" layoutY="138.0" mnemonicParsing="false" onAction="#CRUD_CLIENTE" text="Cliente" textFill="WHITE">
+            <RadioButton fx:id="RBTN_cliente" layoutX="18.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#CRUD_CLIENTE" text="Cliente" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font></RadioButton>

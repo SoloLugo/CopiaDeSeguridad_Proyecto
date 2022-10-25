@@ -15,6 +15,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
@@ -53,19 +54,6 @@ public class VistaGestionController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
-
-    @FXML
-    private void CRUD_CARRO(ActionEvent event) {
-    }
-
-    @FXML
-    private void CRUD_MOTO(ActionEvent event) {
-    }
-
-    @FXML
-    private void CRUD_CLIENTE(ActionEvent event) {
-    }
-
     @FXML
     private void getBack(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/Vista/vista0.fxml"));
@@ -100,6 +88,19 @@ public class VistaGestionController implements Initializable {
 
     @FXML
     private void ELIMINAR(ActionEvent event) {
+    }
+
+    @FXML
+    private void CRUD_CARRO(MouseEvent event) {
+        
+    }
+
+    @FXML
+    private void CRUD_MOTO(MouseEvent event) {
+    }
+
+    @FXML
+    private void CRUD_CLIENTE(MouseEvent event) {
     }
     
 }
