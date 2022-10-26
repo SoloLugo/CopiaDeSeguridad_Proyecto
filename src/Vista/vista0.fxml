@@ -27,7 +27,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </MenuBar>
-      <ImageView fitHeight="172.0" fitWidth="267.0" layoutX="14.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="172.0" fitWidth="267.0" layoutX="14.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../imagenesXD/motomami.png" />
          </image>
