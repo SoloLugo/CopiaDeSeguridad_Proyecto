@@ -6,6 +6,7 @@ package proyecto;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.HashSet;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -13,8 +14,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
+import javafx.scene.control.TitledPane;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -46,6 +49,8 @@ public class VistaGestionController implements Initializable {
     private Button BTN_modificar;
     @FXML
     private Button BTN_eliminar;
+    @FXML
+    private TitledPane Pane_operaciones;
 
     /**
      * Initializes the controller class.
@@ -92,15 +97,38 @@ public class VistaGestionController implements Initializable {
 
     @FXML
     private void CRUD_CARRO(MouseEvent event) {
-        
+        if (this.RBTN_carro.isSelected()){
+            this.Pane_operaciones.setExpanded(true);
+            this.Pane_operaciones.setDisable(false);
+        }
+        else{
+            this.Pane_operaciones.setExpanded(false);
+            this.Pane_operaciones.setDisable(true);
+        }
     }
 
     @FXML
     private void CRUD_MOTO(MouseEvent event) {
+        if (this.RBTN_moto.isSelected()){
+            this.Pane_operaciones.setExpanded(true);
+            this.Pane_operaciones.setDisable(false);
+        }
+        else{
+            this.Pane_operaciones.setExpanded(false);
+            this.Pane_operaciones.setDisable(true);
+        }
     }
 
     @FXML
     private void CRUD_CLIENTE(MouseEvent event) {
+        if (this.RBTN_cliente.isSelected()){
+            this.Pane_operaciones.setExpanded(true);
+            this.Pane_operaciones.setDisable(false);
+        }
+        else{
+            this.Pane_operaciones.setExpanded(false);
+            this.Pane_operaciones.setDisable(true);
+        }
     }
     
 }
