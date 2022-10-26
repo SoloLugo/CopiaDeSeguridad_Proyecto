@@ -22,11 +22,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-/**
- * FXML Controller class
- *
- * @author jorge
- */
 public class VistaGestionController implements Initializable {
 
     @FXML
@@ -52,9 +47,6 @@ public class VistaGestionController implements Initializable {
     @FXML
     private TitledPane Pane_operaciones;
 
-    /**
-     * Initializes the controller class.
-     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
@@ -100,6 +92,8 @@ public class VistaGestionController implements Initializable {
         if (this.RBTN_carro.isSelected()){
             this.Pane_operaciones.setExpanded(true);
             this.Pane_operaciones.setDisable(false);
+            this.RBTN_cliente.setSelected(false);
+            this.RBTN_moto.setSelected(false);
         }
         else{
             this.Pane_operaciones.setExpanded(false);
@@ -112,6 +106,8 @@ public class VistaGestionController implements Initializable {
         if (this.RBTN_moto.isSelected()){
             this.Pane_operaciones.setExpanded(true);
             this.Pane_operaciones.setDisable(false);
+            this.RBTN_carro.setSelected(false);
+            this.RBTN_cliente.setSelected(false);
         }
         else{
             this.Pane_operaciones.setExpanded(false);
@@ -124,6 +120,8 @@ public class VistaGestionController implements Initializable {
         if (this.RBTN_cliente.isSelected()){
             this.Pane_operaciones.setExpanded(true);
             this.Pane_operaciones.setDisable(false);
+            this.RBTN_carro.setSelected(false);
+            this.RBTN_moto.setSelected(false);
         }
         else{
             this.Pane_operaciones.setExpanded(false);
