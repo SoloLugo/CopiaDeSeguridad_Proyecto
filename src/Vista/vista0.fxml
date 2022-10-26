@@ -29,14 +29,14 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </MenuBar>
-      <ImageView fitHeight="501.0" fitWidth="892.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="Logo" fitHeight="501.0" fitWidth="892.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../imagenesXD/fondo1.jpg" />
          </image>
       </ImageView>
-      <Pane layoutY="528.0" prefHeight="72.0" prefWidth="219.0" style="-fx-background-color: #91081A;">
+      <Pane fx:id="PlanoRedes" layoutY="528.0" prefHeight="72.0" prefWidth="219.0" style="-fx-background-color: #91081A;">
          <children>
-            <ImageView fitHeight="57.0" fitWidth="53.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="Whatsapp" fitHeight="57.0" fitWidth="53.0" layoutX="14.0" layoutY="9.0" onMouseClicked="#CLK_WP" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../imagenesXD/wp.png" />
                </image>
@@ -44,7 +44,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </ImageView>
-            <ImageView fitHeight="57.0" fitWidth="53.0" layoutX="83.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="Instagram" fitHeight="57.0" fitWidth="53.0" layoutX="83.0" layoutY="10.0" onMouseClicked="#CLK_INSTA" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../imagenesXD/insta.png" />
                </image>
@@ -52,7 +52,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </ImageView>
-            <ImageView fitHeight="57.0" fitWidth="53.0" layoutX="152.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="Twitter" fitHeight="57.0" fitWidth="53.0" layoutX="152.0" layoutY="10.0" onMouseClicked="#CLK_TWIT" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../imagenesXD/twitter.png" />
                </image>
@@ -62,6 +62,6 @@
             </ImageView>
          </children>
       </Pane>
-      <Text fill="WHITE" layoutX="237.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Somos una base de datos para la compañia MECHANIC ON DUTY. Puede revisar nuestras redes sociales :D" textAlignment="JUSTIFY" wrappingWidth="500.6029052734375" />
+      <Text fx:id="Parrafo" fill="WHITE" layoutX="237.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Somos una base de datos para la compañia MECHANIC ON DUTY. Puede revisar nuestras redes sociales :D" textAlignment="JUSTIFY" wrappingWidth="500.6029052734375" />
    </children>
 </AnchorPane>
