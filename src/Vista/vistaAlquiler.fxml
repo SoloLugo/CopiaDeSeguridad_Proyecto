@@ -7,16 +7,16 @@
 <?import javafx.scene.layout.Pane?>
 
 
-<AnchorPane id="AnchorPane" fx:id="Alquiler" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="Vista.VistaAlquilerController">
+<AnchorPane id="AnchorPane" fx:id="Alquilar" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="proyecto.VistaAlquilerController">
    <children>
-      <Pane fx:id="Pane1" layoutX="14.0" layoutY="14.0" prefHeight="370.0" prefWidth="571.0" style="-fx-background-color: #149108;">
+      <Pane fx:id="Panel1" layoutX="167.0" layoutY="100.0" prefHeight="265.0" prefWidth="279.0" style="-fx-background-color: #149108;">
          <children>
-            <ImageView fx:id="Gato" fitHeight="150.0" fitWidth="200.0" layoutX="186.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="gato" fitHeight="176.0" fitWidth="299.0" layoutX="52.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../imagenesXD/gatoraro.jpg" />
                </image>
             </ImageView>
-            <Button fx:id="BTN_regresar" layoutX="235.0" layoutY="262.0" mnemonicParsing="false" onAction="#getBack" text="REGRESAR" textFill="RED" />
+            <Button fx:id="BTN_regresar" layoutX="114.0" layoutY="213.0" mnemonicParsing="false" onAction="#getBack" text="REGRESAR" textFill="RED" />
          </children>
       </Pane>
    </children>
