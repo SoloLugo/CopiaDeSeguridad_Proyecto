@@ -7,10 +7,12 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" fx:id="Entrada" prefHeight="391.0" prefWidth="600.0" style="-fx-background-color: #69131D;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.Vista0Controller">
+<AnchorPane id="AnchorPane" fx:id="Entrada" prefHeight="580.0" prefWidth="752.0" style="-fx-background-color: #69131D;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.Vista0Controller">
    <children>
-      <MenuBar fx:id="menuBar" layoutY="1.0" prefHeight="26.0" prefWidth="600.0">
+      <MenuBar fx:id="menuBar" layoutY="1.0" prefHeight="26.0" prefWidth="752.0">
         <menus>
           <Menu fx:id="BTN_operaciones" mnemonicParsing="false" text="Operaciones">
             <items>
@@ -27,15 +29,39 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </MenuBar>
-      <ImageView fitHeight="172.0" fitWidth="267.0" layoutX="14.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="501.0" fitWidth="892.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../imagenesXD/motomami.png" />
+            <Image url="@../imagenesXD/fondo1.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="162.0" fitWidth="289.0" layoutX="300.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../imagenesXD/carromami.png" />
-         </image>
-      </ImageView>
+      <Pane layoutY="528.0" prefHeight="72.0" prefWidth="219.0" style="-fx-background-color: #91081A;">
+         <children>
+            <ImageView fitHeight="57.0" fitWidth="53.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenesXD/wp.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="57.0" fitWidth="53.0" layoutX="83.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenesXD/insta.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="57.0" fitWidth="53.0" layoutX="152.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenesXD/twitter.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Pane>
+      <Text fill="WHITE" layoutX="237.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Somos una base de datos para la compañia MECHANIC ON DUTY. Puede revisar nuestras redes sociales :D" textAlignment="JUSTIFY" wrappingWidth="500.6029052734375" />
    </children>
 </AnchorPane>
